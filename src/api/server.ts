@@ -47,7 +47,7 @@ async function readJsonBody(req: http.IncomingMessage) {
 export function createRxGuardServer() {
   return http.createServer(async (req, res) => {
     if (req.method === 'GET' && req.url === '/health') {
-      writeJson(res, 200, { ok: true, service: 'rx-guard' });
+      writeJson(res, 200, { ok: true, service: 'rxsignal' });
       return;
     }
 

@@ -55,7 +55,7 @@ The current MVP:
 ## Initial repository structure
 
 ```text
-rx-guard/
+RXsignal/
 ├── README.md
 ├── docs/
 │   ├── product/

@@ -20,8 +20,8 @@ npm --version
 1. Open **Terminal**.
 2. Clone and enter the repo:
    ```bash
-   git clone https://github.com/mikepatraw/rx-guard.git
-   cd rx-guard
+   git clone https://github.com/mikepatraw/RXsignal.git
+   cd RXsignal
    ```
 3. Install packages:
    ```bash
@@ -50,8 +50,8 @@ npm test
 1. Open **PowerShell**.
 2. Clone and enter the repo:
    ```powershell
-   git clone https://github.com/mikepatraw/rx-guard.git
-   cd rx-guard
+   git clone https://github.com/mikepatraw/RXsignal.git
+   cd RXsignal
    ```
 3. Install packages:
    ```powershell
