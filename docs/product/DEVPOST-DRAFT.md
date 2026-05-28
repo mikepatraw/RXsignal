@@ -88,4 +88,4 @@ These are technical integration endpoints, not polished marketplace landing page
 
 ## Repo
 
-https://github.com/mikepatraw/rx-guard
+https://github.com/mikepatraw/RXsignal

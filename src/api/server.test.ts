@@ -30,6 +30,9 @@ await withServer(async (port) => {
   const response = await request(port, '/health');
   assert.equal(response.status, 200);
   assertSecurityHeaders(response);
+  const body = await response.json() as { ok: boolean; service: string };
+  assert.equal(body.ok, true);
+  assert.equal(body.service, 'rxsignal');
 });
 
 await withServer(async (port) => {
